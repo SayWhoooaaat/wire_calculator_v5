@@ -20,8 +20,8 @@ function init1(){
   layoutNumber = 1;
   genericInit();
   
-  button = createButton('Direkte coilberegning');
-  button.mousePressed(layoutchange1);
+  //button = createButton('Direkte coilberegning');
+  //button.mousePressed(layoutchange1);
   
   registerInput();
   calculate();
@@ -77,7 +77,7 @@ function createBoxes(){
   tempUI = new UIparameter('Ovnstemp.:', '\u00B0C', 630, true);
   resUI = new UIparameter('Motstand:', '\u03A9', 0, false);
   lengthUI = new UIparameter('Spirallengde', 'mm', 840, true);
-  diaUI = new UIparameter('Innerspiraldia.', 'mm', 45, true);
+  diaUI = new UIparameter('Innerspiraldia.', 'mm', 33, true);
   
   // UI-boxes SF
   lVoltUI = new UIparameter('Linjespenning:', 'V', 400, true);
